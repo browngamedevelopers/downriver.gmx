@@ -12,10 +12,15 @@
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
+<<<<<<< HEAD
     <sprite>sprites\sprWall</sprite>
+=======
+    <sprite>sprites\sprRiverbankTri</sprite>
+>>>>>>> fc48cca9f34c8fe13ee6eed50090509737092cd6
   </sprites>
   <backgrounds name="background">
     <background>background\bckGame</background>
+    <background>background\placeholderBG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -37,7 +42,11 @@
     <object>objects\objAsteroidMedium</object>
     <object>objects\objAsteroidSmall</object>
     <object>objects\objAsteroidTiny</object>
+<<<<<<< HEAD
     <object>objects\objWall</object>
+=======
+    <object>objects\objRiverbank</object>
+>>>>>>> fc48cca9f34c8fe13ee6eed50090509737092cd6
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
