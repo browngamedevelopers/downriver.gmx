@@ -22,6 +22,19 @@
     <sprite>sprites\sprLilyPad1</sprite>
     <sprite>sprites\sprLilyPad2</sprite>
     <sprite>sprites\sprStart</sprite>
+    <sprite>sprites\sprite21</sprite>
+    <sprite>sprites\sprite19</sprite>
+    <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\sprite13</sprite>
+    <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
@@ -30,6 +43,8 @@
   <backgrounds name="background">
     <background>background\bckGame</background>
     <background>background\placeholderBG</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -44,6 +59,7 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objStart</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
     <object>objects\objDynamic</object>
@@ -73,8 +89,8 @@
     <object>objects\objLilyPad2</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmGenerator</room>
     <room>rooms\rmStart</room>
+    <room>rooms\rmGenerator</room>
     <room>rooms\rmGame</room>
   </rooms>
   <help>
