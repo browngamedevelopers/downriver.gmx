@@ -9,22 +9,22 @@
     <sprite>sprites\sprShip</sprite>
     <sprite>sprites\sprBox</sprite>
     <sprite>sprites\sprAsteroidLarge</sprite>
-    <sprite>sprites\sprite19</sprite>
-    <sprite>sprites\sprite18</sprite>
-    <sprite>sprites\sprite17</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\sprite15</sprite>
-    <sprite>sprites\sprite14</sprite>
-    <sprite>sprites\sprite13</sprite>
-    <sprite>sprites\sprite12</sprite>
-    <sprite>sprites\sprite11</sprite>
-    <sprite>sprites\sprite10</sprite>
-    <sprite>sprites\sprite9</sprite>
-    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprBank1</sprite>
+    <sprite>sprites\sprBank2</sprite>
+    <sprite>sprites\sprBank3</sprite>
+    <sprite>sprites\sprBank4</sprite>
+    <sprite>sprites\sprBank5</sprite>
+    <sprite>sprites\sprLeaf1</sprite>
+    <sprite>sprites\sprLeaf2</sprite>
+    <sprite>sprites\sprRock1</sprite>
+    <sprite>sprites\sprRock2</sprite>
+    <sprite>sprites\sprLog1</sprite>
+    <sprite>sprites\sprLilyPad1</sprite>
+    <sprite>sprites\sprLilyPad2</sprite>
+    <sprite>sprites\sprStart</sprite>
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
-    <sprite>sprites\sprBank1</sprite>
     <sprite>sprites\sprRiverbankTri</sprite>
   </sprites>
   <backgrounds name="background">
@@ -44,7 +44,6 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
-    <object>objects\objBank</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
     <object>objects\objDynamic</object>
@@ -58,11 +57,20 @@
     <object>objects\objAsteroidTiny</object>
     <object>objects\objRiverbank</object>
     <object>objects\objRock</object>
+    <object>objects\objLeaf</object>
+    <object>objects\objLeaf1</object>
+    <object>objects\objLeaf2</object>
     <object>objects\objRock1</object>
     <object>objects\objRock2</object>
+    <object>objects\objBank</object>
     <object>objects\objBank1</object>
     <object>objects\objBank2</object>
+    <object>objects\objBank3</object>
+    <object>objects\objBank4</object>
+    <object>objects\objBank5</object>
     <object>objects\objTestGenerator</object>
+    <object>objects\objLilyPad1</object>
+    <object>objects\objLilyPad2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGenerator</room>
