@@ -51,7 +51,7 @@ phy_speed_y = -2;
           <argument>
             <kind>1</kind>
             <string>///Set speed
-phy_speed_y = -2;
+phy_speed_y = gameSpeed;
 //TODO: Physics speed should be a global variable
 
 if (y &lt; -400) {
