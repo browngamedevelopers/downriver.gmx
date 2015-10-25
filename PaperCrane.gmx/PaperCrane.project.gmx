@@ -12,7 +12,7 @@
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
-    <sprite>sprites\sprBank</sprite>
+    <sprite>sprites\sprBank1</sprite>
     <sprite>sprites\sprRiverbankTri</sprite>
   </sprites>
   <backgrounds name="background">
@@ -45,12 +45,15 @@
     <object>objects\objAsteroidSmall</object>
     <object>objects\objAsteroidTiny</object>
     <object>objects\objRiverbank</object>
+    <object>objects\objRock</object>
     <object>objects\objRock1</object>
     <object>objects\objRock2</object>
     <object>objects\objBank1</object>
     <object>objects\objBank2</object>
+    <object>objects\objTestGenerator</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmGenerator</room>
     <room>rooms\rmGame</room>
   </rooms>
   <help>
