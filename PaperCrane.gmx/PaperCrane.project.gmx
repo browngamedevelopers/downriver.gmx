@@ -12,6 +12,7 @@
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
+    <sprite>sprites\sprBank</sprite>
     <sprite>sprites\sprRiverbankTri</sprite>
   </sprites>
   <backgrounds name="background">
@@ -27,6 +28,7 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objBank</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
     <object>objects\objDynamic</object>
