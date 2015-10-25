@@ -78,7 +78,7 @@ flapping = false;
             <string>// Physics:
 image_angle = direction;
 phy_rotation = -image_angle;
-var ds = abs(gameSpeed+2) / SWIM_POWER;
+var ds = abs(gameSpeed+2) / 20;
 if (gameSpeed &lt; -2)
 {
     gameSpeed += ds;
@@ -198,7 +198,7 @@ instance_destroy();
           <argument>
             <kind>1</kind>
             <string>if(alarm[0] == -1){
-    physics_apply_impulse(x, y, SWIM_POWER*lengthdir_x(boost, direction), 0)
+    physics_apply_impulse(x, y, SWIM_POWER*lengthdir_x(boost, direction), 0);
     gameSpeed -= lengthdir_y(boost,direction);
     flapping = true;
     alarm[0] = 20;
@@ -221,9 +221,9 @@ instance_destroy();
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>32,0</point>
+    <point>28,8</point>
     <point>48,32</point>
-    <point>32,64</point>
-    <point>16,32</point>
+    <point>28,56</point>
+    <point>12,32</point>
   </PhysicsShapePoints>
 </object>
