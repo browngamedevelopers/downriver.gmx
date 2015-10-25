@@ -28,9 +28,9 @@
             <string>score = 0;
 randomize();
 alarm[0] = room_speed*15;
-
-globalvar gameSpeed;
 gameSpeed = -2;
+background_vspeed[0] = gameSpeed;
+globalvar gameSpeed;
 </string>
           </argument>
         </arguments>
