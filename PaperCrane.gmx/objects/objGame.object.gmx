@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>score = 0;
+randomize();
 alarm[0] = room_speed*15;
 </string>
           </argument>

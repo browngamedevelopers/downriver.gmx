@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>points = 10;
+y_speed = -2;
 var initialBaseImpulse = 10;
 var maxInitialImpulse = 5;
 
@@ -100,13 +101,17 @@ effect_create_above(ef_explosion,x,y,0,c_teal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>phy_wrap_object();
+            <string>// Wrap the objects (for now):
+phy_wrap_object();
+
+// Move the objects at a certain speed.
+phy_linear_velocity_y = y_speed;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objBullet">
+    <event eventtype="5" enumb="38">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -123,8 +128,7 @@ effect_create_above(ef_explosion,x,y,0,c_teal);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>

@@ -7,12 +7,12 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprShip</sprite>
-    <sprite>sprites\sprBullet</sprite>
     <sprite>sprites\sprBox</sprite>
     <sprite>sprites\sprAsteroidLarge</sprite>
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
     <sprite>sprites\sprAsteroidTiny</sprite>
+    <sprite>sprites\sprWall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckGame</background>
@@ -20,6 +20,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\phy_wrap_object.gml</script>
+    <script>scripts\phy_border_object.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntGame</font>
@@ -31,12 +32,12 @@
     <object>objects\objStatic</object>
     <object>objects\objBox</object>
     <object>objects\objPlayer</object>
-    <object>objects\objBullet</object>
     <object>objects\objAsteroidParent</object>
     <object>objects\objAsteroidLarge</object>
     <object>objects\objAsteroidMedium</object>
     <object>objects\objAsteroidSmall</object>
     <object>objects\objAsteroidTiny</object>
+    <object>objects\objWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
