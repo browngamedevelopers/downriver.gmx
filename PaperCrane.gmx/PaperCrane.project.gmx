@@ -9,6 +9,7 @@
     <sprite>sprites\sprShip</sprite>
     <sprite>sprites\sprBox</sprite>
     <sprite>sprites\sprAsteroidLarge</sprite>
+    <sprite>sprites\sprite21</sprite>
     <sprite>sprites\sprite19</sprite>
     <sprite>sprites\sprite18</sprite>
     <sprite>sprites\sprite17</sprite>
@@ -30,6 +31,8 @@
   <backgrounds name="background">
     <background>background\bckGame</background>
     <background>background\placeholderBG</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -44,6 +47,7 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objStart</object>
     <object>objects\objBank</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
@@ -65,8 +69,8 @@
     <object>objects\objTestGenerator</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmGenerator</room>
     <room>rooms\rmStart</room>
+    <room>rooms\rmGenerator</room>
     <room>rooms\rmGame</room>
   </rooms>
   <help>
