@@ -10,8 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>background_vspeed[0] = gameSpeed;
-background_y[0] = 288;</code>
+  <code>background_y[0] = 288;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
