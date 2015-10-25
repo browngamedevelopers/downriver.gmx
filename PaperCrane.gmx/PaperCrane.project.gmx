@@ -22,6 +22,10 @@
   <scripts name="scripts">
     <script>scripts\phy_wrap_object.gml</script>
     <script>scripts\phy_border_object.gml</script>
+    <script>scripts\generateNextBlock.gml</script>
+    <script>scripts\blockOne.gml</script>
+    <script>scripts\blockTwo.gml</script>
+    <script>scripts\blockThree.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntGame</font>
@@ -39,6 +43,10 @@
     <object>objects\objAsteroidSmall</object>
     <object>objects\objAsteroidTiny</object>
     <object>objects\objRiverbank</object>
+    <object>objects\objRock1</object>
+    <object>objects\objRock2</object>
+    <object>objects\objBank1</object>
+    <object>objects\objBank2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
