@@ -43,8 +43,8 @@
   <backgrounds name="background">
     <background>background\bckGame</background>
     <background>background\placeholderBG</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
+    <background>background\bckCredits</background>
+    <background>background\bckMenu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -87,10 +87,12 @@
     <object>objects\objTestGenerator</object>
     <object>objects\objLilyPad1</object>
     <object>objects\objLilyPad2</object>
+    <object>objects\objGlobal</object>
+    <object>objects\objTileGenerator</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmStart</room>
     <room>rooms\rmGenerator</room>
+    <room>rooms\rmStart</room>
     <room>rooms\rmGame</room>
   </rooms>
   <help>

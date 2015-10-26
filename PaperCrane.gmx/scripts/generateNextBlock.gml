@@ -3,7 +3,7 @@ var block = irandom(4);
 
 switch(block){
     case 0:
-    blockOne(offset);
+    //blockOne(offset);
     break;
     case 1:
     blockTwo(offset);
@@ -15,7 +15,7 @@ switch(block){
     blockThree(offset);
     break;
     default:
-    blockOne(offset);
+//    blockOne(offset);
     break;
 }
 
