@@ -6,11 +6,14 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprShip</sprite>
+    <sprite>sprites\sprCollectable</sprite>
+    <sprite>sprites\sprPlayAgain</sprite>
+    <sprite>sprites\sprEndBlock</sprite>
+    <sprite>sprites\sprFrog</sprite>
+    <sprite>sprites\sprCrane</sprite>
     <sprite>sprites\sprBox</sprite>
     <sprite>sprites\sprAsteroidLarge</sprite>
     <sprite>sprites\sprBank1</sprite>
-    <sprite>sprites\sprBank2</sprite>
     <sprite>sprites\sprBank3</sprite>
     <sprite>sprites\sprBank4</sprite>
     <sprite>sprites\sprBank5</sprite>
@@ -45,12 +48,14 @@
     <background>background\placeholderBG</background>
     <background>background\bckCredits</background>
     <background>background\bckMenu</background>
+    <background>background\bkgdwater</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\phy_wrap_object.gml</script>
     <script>scripts\phy_border_object.gml</script>
     <script>scripts\generateNextBlock.gml</script>
+    <script>scripts\blockZero.gml</script>
     <script>scripts\blockOne.gml</script>
     <script>scripts\blockTwo.gml</script>
     <script>scripts\blockThree.gml</script>
@@ -59,20 +64,19 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objCollectable</object>
+    <object>objects\objEndBlock</object>
+    <object>objects\objFrog</object>
     <object>objects\objStart</object>
+    <object>objects\objPlayAgain</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
     <object>objects\objDynamic</object>
     <object>objects\objStatic</object>
-    <object>objects\objBox</object>
+    <object>objects\objDeadPlayer</object>
     <object>objects\objPlayer</object>
-    <object>objects\objAsteroidParent</object>
-    <object>objects\objAsteroidLarge</object>
-    <object>objects\objAsteroidMedium</object>
-    <object>objects\objAsteroidSmall</object>
-    <object>objects\objAsteroidTiny</object>
-    <object>objects\objRiverbank</object>
     <object>objects\objRock</object>
+    <object>objects\objLog</object>
     <object>objects\objLeaf</object>
     <object>objects\objLeaf1</object>
     <object>objects\objLeaf2</object>
@@ -84,16 +88,17 @@
     <object>objects\objBank3</object>
     <object>objects\objBank4</object>
     <object>objects\objBank5</object>
-    <object>objects\objTestGenerator</object>
     <object>objects\objLilyPad1</object>
     <object>objects\objLilyPad2</object>
+    <object>objects\objEndGame</object>
     <object>objects\objGlobal</object>
-    <object>objects\objTileGenerator</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmGenerator</room>
     <room>rooms\rmStart</room>
+    <room>rooms\rmEnd</room>
     <room>rooms\rmGame</room>
+    <room>rooms\rmTest</room>
+    <room>rooms\rmPlayAround</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

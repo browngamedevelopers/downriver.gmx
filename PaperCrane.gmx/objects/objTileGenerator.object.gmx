@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!place_meeting(0,0,objBank)){
-    show_debug_message("free");
-}
+            <string>//if(!place_meeting(0,0,objBank)){
+//    show_debug_message("free");
+//}
 </string>
           </argument>
         </arguments>

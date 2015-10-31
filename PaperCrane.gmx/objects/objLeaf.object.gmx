@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_angle = direction;
+phy_speed_y = gameSpeed;
 </string>
           </argument>
         </arguments>
