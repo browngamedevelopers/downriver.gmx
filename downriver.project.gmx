@@ -6,6 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\sprHighscores</sprite>
+    <sprite>sprites\sprRipples</sprite>
     <sprite>sprites\sprCollectable</sprite>
     <sprite>sprites\sprPlayAgain</sprite>
     <sprite>sprites\sprEndBlock</sprite>
@@ -64,10 +66,12 @@
     <font>fonts\fntGame</font>
   </fonts>
   <objects name="objects">
+    <object>objects\objRipples</object>
     <object>objects\objCollectable</object>
     <object>objects\objEndBlock</object>
     <object>objects\objFrog</object>
     <object>objects\objStart</object>
+    <object>objects\objHighscores</object>
     <object>objects\objPlayAgain</object>
     <object>objects\objGame</object>
     <object>objects\objBase</object>
@@ -94,8 +98,8 @@
     <object>objects\objGlobal</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmStart</room>
     <room>rooms\rmGame</room>
+    <room>rooms\rmStart</room>
     <room>rooms\rmEnd</room>
     <room>rooms\rmTest</room>
     <room>rooms\rmPlayAround</room>
