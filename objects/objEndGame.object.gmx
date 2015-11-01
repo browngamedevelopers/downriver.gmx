@@ -28,7 +28,7 @@
             <string>draw_set_font(fntGame);
 draw_set_colour(c_white);
 draw_set_alpha(0.4);
-draw_text(200,200,"Score:" + string(floor(score/10)));
+draw_text(600,150,"Score:" + string(floor(score/10)));
 </string>
           </argument>
         </arguments>

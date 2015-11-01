@@ -51,10 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayer" x="448" y="256" name="inst_F1977B7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="objPlayer" x="448" y="256" name="inst_F1977B7F" locked="0" code="direction = image_angle;&#xA;phy_rotation = direction;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
     <instance objName="objGame" x="64" y="96" name="inst_DF159DE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFrog" x="320" y="160" name="inst_66A663EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="objCollectable" x="448" y="480" name="inst_BCA110E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

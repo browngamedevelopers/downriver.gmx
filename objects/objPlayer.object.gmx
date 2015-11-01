@@ -181,7 +181,7 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="40">
+    <event eventtype="9" enumb="38">
       <action>
         <libid>1</libid>
         <id>603</id>
