@@ -18,6 +18,16 @@ with(next){
     phy_position_y = y;
     
 }
+next = instance_create(100,yoffset+prevheight,objLeaf2);
+with(next){
+    //y-=sprite_height;
+}
+next = instance_create(room_width-100,yoffset+prevheight,objLeaf2);
+with(next){
+    x-= sprite_width;
+    image_xscale *= -1;
+    //y-=sprite_height;
+}
 //End Block!
 next = instance_create(0,yoffset+prevheight,objEndBlock);
 with(next){

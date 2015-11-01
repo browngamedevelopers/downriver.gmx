@@ -97,7 +97,7 @@ else
 background_vspeed[0] = gameSpeed;
 
 //Collisions
-if(position_meeting(x,y,objStatic) || position_meeting(x,y,objFrog)){
+if(position_meeting(x,y,objStatic) || position_meeting(x,y,objFrog) || position_meeting(x,y,objLog)){
     with(objFrog){
         image_speed = 0;
         phy_speed_x = 0;

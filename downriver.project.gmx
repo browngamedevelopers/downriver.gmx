@@ -4,8 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndMusic</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprite>sprites\sprCraneDeath</sprite>
     <sprite>sprites\sprHighscores</sprite>
     <sprite>sprites\sprRipples</sprite>
     <sprite>sprites\sprCollectable</sprite>
@@ -98,10 +101,10 @@
     <object>objects\objGlobal</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmGame</room>
-    <room>rooms\rmStart</room>
-    <room>rooms\rmEnd</room>
     <room>rooms\rmTest</room>
+    <room>rooms\rmStart</room>
+    <room>rooms\rmGame</room>
+    <room>rooms\rmEnd</room>
     <room>rooms\rmPlayAround</room>
   </rooms>
   <help>

@@ -19,10 +19,20 @@ with(next){
     phy_position_y = y;
     
 }
-//End Block!
-next = instance_create(0,yoffset+prevheight,objEndBlock);
+next = instance_create(100,yoffset+prevheight,objLeaf2);
 with(next){
-    //depth = -3;
+    //y-=sprite_height;
+}
+next = instance_create(room_width-100,yoffset+prevheight,objLeaf2);
+with(next){
+    x-= sprite_width;
+    image_xscale *= -1;
+    //y-=sprite_height;
+}
+//End Block!
+next = instance_create(0,yoffset+prevheight-20,objEndBlock);
+with(next){
+    //y-=sprite_height;
 }
 
 next = instance_create(40,yoffset,objBank2);
@@ -62,3 +72,9 @@ with(next){
     //image_yscale = 0.25;
 }
 
+next = instance_create(425,1500+yoffset,objLog);
+with(next){
+    x+= random_range(-20,20);
+    //image_xscale = 0.25;
+    //image_yscale = 0.25;
+}

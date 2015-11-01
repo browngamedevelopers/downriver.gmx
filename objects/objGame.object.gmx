@@ -55,7 +55,7 @@ score = 0;
           <argument>
             <kind>1</kind>
             <string>///Generate Riverbanks
-show_debug_message("Generating banks...");
+//show_debug_message("Generating banks...");
 //TODO: Randomization of scale, bank object, and gap size
 /*var leftBank = instance_create(0, view_hport[0] + 400, objRiverbank);
 var rightBank = instance_create(room_width, view_hport[0] + 800, objRiverbank);

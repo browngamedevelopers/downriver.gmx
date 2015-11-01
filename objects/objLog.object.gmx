@@ -48,8 +48,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>phy_wrap_object();
-phy_speed_y = gameSpeed -2;
+            <string>//phy_wrap_object();
+phy_speed_y = gameSpeed -4;
 </string>
           </argument>
         </arguments>
@@ -58,7 +58,7 @@ phy_speed_y = gameSpeed -2;
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>2</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>1</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -68,7 +68,9 @@ phy_speed_y = gameSpeed -2;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>64,48</point>
-    <point>48,56</point>
+    <point>10,40</point>
+    <point>100,20</point>
+    <point>106,56</point>
+    <point>10,76</point>
   </PhysicsShapePoints>
 </object>

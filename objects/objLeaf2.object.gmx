@@ -3,12 +3,12 @@
   <spriteName>sprLeaf2</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-20</depth>
   <persistent>0</persistent>
   <parentName>objLeaf</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events/>
-  <PhysicsObject>0</PhysicsObject>
+  <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
@@ -19,5 +19,8 @@
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>112,80</point>
+    <point>37,105</point>
+  </PhysicsShapePoints>
 </object>
