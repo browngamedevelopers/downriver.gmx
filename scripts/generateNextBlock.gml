@@ -1,5 +1,5 @@
 var offset = argument0;
-var block = irandom(3);
+var block = irandom(4);
 //blockOne(offset);
 switch(block){
     case 0:
@@ -14,6 +14,9 @@ switch(block){
     break;
     case 3:
     blockThree(offset);
+    break;
+    case 4:
+    blockFour(offset);
     break;
     default:
     blockZero(offset);

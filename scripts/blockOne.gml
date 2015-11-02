@@ -51,7 +51,7 @@ with(next){
 
 
 
-next = instance_create(550,200+yoffset,objRock1);
+next = instance_create(550,200+yoffset,objLilyPad1);
 with(next){
     //image_xscale = 0.25;
     //image_yscale = 0.25;

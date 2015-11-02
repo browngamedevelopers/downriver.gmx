@@ -30,18 +30,8 @@
     <sprite>sprites\sprLilyPad1</sprite>
     <sprite>sprites\sprLilyPad2</sprite>
     <sprite>sprites\sprStart</sprite>
-    <sprite>sprites\sprite21</sprite>
-    <sprite>sprites\sprite19</sprite>
-    <sprite>sprites\sprite18</sprite>
-    <sprite>sprites\sprite17</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\sprite15</sprite>
     <sprite>sprites\sprite14</sprite>
-    <sprite>sprites\sprite13</sprite>
     <sprite>sprites\sprite12</sprite>
-    <sprite>sprites\sprite11</sprite>
-    <sprite>sprites\sprite10</sprite>
-    <sprite>sprites\sprite9</sprite>
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprAsteroidMedium</sprite>
     <sprite>sprites\sprAsteroidSmall</sprite>
@@ -64,6 +54,7 @@
     <script>scripts\blockOne.gml</script>
     <script>scripts\blockTwo.gml</script>
     <script>scripts\blockThree.gml</script>
+    <script>scripts\blockFour.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntGame</font>
@@ -85,6 +76,7 @@
     <object>objects\objRock</object>
     <object>objects\objLog</object>
     <object>objects\objLeaf</object>
+    <object>objects\objLilyPad</object>
     <object>objects\objLeaf1</object>
     <object>objects\objLeaf2</object>
     <object>objects\objRock1</object>
@@ -101,10 +93,10 @@
     <object>objects\objGlobal</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmTest</room>
     <room>rooms\rmStart</room>
     <room>rooms\rmGame</room>
     <room>rooms\rmEnd</room>
+    <room>rooms\rmTest</room>
     <room>rooms\rmPlayAround</room>
   </rooms>
   <help>

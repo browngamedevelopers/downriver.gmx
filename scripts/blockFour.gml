@@ -1,16 +1,17 @@
-/* Block Three:
+/* Block Four:
 
     |       |
+      \     |
+       \    |
     |      /
-    |     |
-    |      \
-    |       |
+    |    /  
 
 */
 var yoffset = argument0;
 var next;
 var prevheight = 0;
-next = instance_create(room_width,yoffset,objBank4);
+//Right side
+next = instance_create(room_width,yoffset,objBank5);
 prevheight = next.sprite_height;
 with(next){
     x -= sprite_width/2;
@@ -20,8 +21,12 @@ with(next){
     phy_position_y = y;
     
 }
+next = instance_create(room_width -100,yoffset+prevheight,objLeaf2);
+with(next){
+    image_xscale *=-1;
+}
 
-next = instance_create(room_width,yoffset+prevheight,objBank3);
+next = instance_create(room_width,yoffset+prevheight,objBank1);
 prevheight += next.sprite_height;
 with(next){
     x -= sprite_width/2 - 40;
@@ -32,35 +37,36 @@ with(next){
     
 }
 
-next = instance_create(room_width,yoffset+prevheight,objBank4);
-prevheight += next.sprite_height;
-with(next){
-    x -= sprite_width/2;
-    y += sprite_height/2;
-    image_xscale *=-1;
-    phy_position_x = x;
-    phy_position_y = y;
-    image_yscale *=-1;
-    
-}
 next = instance_create(room_width -100,yoffset+prevheight,objLeaf2);
 with(next){
     image_xscale *=-1;
 }
-next = instance_create(100,yoffset+prevheight-50,objLeaf1);
+next = instance_create(100,yoffset+prevheight,objLeaf2);
 with(next){
-}
-next = instance_create(100,yoffset+prevheight+150,objLeaf2);
-with(next){
-    
 }
 //EndBlock
 next = instance_create(0,yoffset+prevheight,objEndBlock);
 with(next){
 }
 
-next = instance_create(-40,yoffset,objBank1);
+
+//Left
+
+next = instance_create(0,yoffset,objBank1);
 prevheight = next.sprite_height;
+with(next){
+    x += sprite_width/2 - 40;
+    y += sprite_height/2;
+    //image_xscale *= -1;
+    phy_position_x = x;
+    phy_position_y = y;
+    
+}
+next = instance_create(100,yoffset+prevheight,objLeaf2);
+with(next){
+}
+next = instance_create(0,yoffset+prevheight,objBank5);
+prevheight += next.sprite_height;
 with(next){
     x += sprite_width/2;
     y += sprite_height/2;
@@ -71,15 +77,20 @@ with(next){
    // phy_rotation = direction;
 }
 
-next = instance_create(-40,yoffset+prevheight,objBank1);
+next = instance_create(0,yoffset+prevheight,objBank1);
 prevheight += next.sprite_height;
 with(next){
-    x += sprite_width/2;
-    y += sprite_height/2 -5;
-    //next.direction = 180;
-   // next.image_angle = direction;
+    x += sprite_width/2 - 40;
+    y += sprite_height/2;
+    //image_xscale *= -1;
     phy_position_x = x;
     phy_position_y = y;
-    //phy_rotation = direction;
+    
 }
+
+next = instance_create(100,yoffset+prevheight,objLeaf2);
+with(next){
+    //image_xscale *=-1;
+}
+
 
